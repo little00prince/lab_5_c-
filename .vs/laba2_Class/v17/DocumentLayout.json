@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,32 +55,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "tetrapyramid.cpp",
-              "DocumentMoniker": "C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\laba2_Class\\tetrapyramid.cpp",
-              "RelativeDocumentMoniker": "laba2_Class\\tetrapyramid.cpp",
-              "ToolTip": "C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\laba2_Class\\tetrapyramid.cpp",
-              "RelativeToolTip": "laba2_Class\\tetrapyramid.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-23T12:50:49.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ball.cpp",
-              "DocumentMoniker": "C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\laba2_Class\\ball.cpp",
-              "RelativeDocumentMoniker": "laba2_Class\\ball.cpp",
-              "ToolTip": "C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\laba2_Class\\ball.cpp",
-              "RelativeToolTip": "laba2_Class\\ball.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-23T12:50:18.643Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -105,8 +79,7 @@
               "RelativeToolTip": "laba2_Class\\figure.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-23T12:49:00.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T12:49:00.466Z"
             },
             {
               "$type": "Document",
@@ -116,9 +89,34 @@
               "RelativeDocumentMoniker": "laba2_Class\\laba2_Class.cpp",
               "ToolTip": "C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\laba2_Class\\laba2_Class.cpp",
               "RelativeToolTip": "laba2_Class\\laba2_Class.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-23T12:28:22.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ball.cpp",
+              "DocumentMoniker": "C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\laba2_Class\\ball.cpp",
+              "RelativeDocumentMoniker": "laba2_Class\\ball.cpp",
+              "ToolTip": "C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\laba2_Class\\ball.cpp",
+              "RelativeToolTip": "laba2_Class\\ball.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-23T12:50:18.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "tetrapyramid.cpp",
+              "DocumentMoniker": "C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\laba2_Class\\tetrapyramid.cpp",
+              "RelativeDocumentMoniker": "laba2_Class\\tetrapyramid.cpp",
+              "ToolTip": "C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\laba2_Class\\tetrapyramid.cpp",
+              "RelativeToolTip": "laba2_Class\\tetrapyramid.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-23T12:50:49.804Z",
               "EditorCaption": ""
             },
             {
@@ -131,8 +129,7 @@
               "RelativeToolTip": "laba2_Class\\tetrapyramid.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-23T12:48:12.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T12:48:12.292Z"
             },
             {
               "$type": "Document",
@@ -144,8 +141,7 @@
               "RelativeToolTip": "laba2_Class\\ball.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-23T12:47:53.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T12:47:53.274Z"
             },
             {
               "$type": "Document",
@@ -157,8 +153,7 @@
               "RelativeToolTip": "laba2_Class\\cube.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-23T12:47:40.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T12:47:40.885Z"
             },
             {
               "$type": "Document",
@@ -170,8 +165,7 @@
               "RelativeToolTip": "laba2_Class\\figure.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-23T12:47:24.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T12:47:24.519Z"
             }
           ]
         }
