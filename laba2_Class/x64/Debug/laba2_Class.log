@@ -1,0 +1,7 @@
+﻿  laba2_Class.cpp
+C:\Users\anton\source\repos\lab__2Struct\laba2_Class\laba2_Class\laba2_Class.cpp(86,21): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\anton\source\repos\lab__2Struct\laba2_Class\laba2_Class\laba2_Class.cpp(87,27): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\anton\source\repos\lab__2Struct\laba2_Class\laba2_Class\laba2_Class.cpp(111,35): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\anton\source\repos\lab__2Struct\laba2_Class\laba2_Class\laba2_Class.cpp(112,37): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\anton\source\repos\lab__2Struct\laba2_Class\laba2_Class\laba2_Class.cpp(120,25): warning C4101: i: неиспользованная локальная переменная
+  laba2_Class.vcxproj -> C:\Users\anton\source\repos\lab__2Struct\laba2_Class\x64\Debug\laba2_Class.exe
