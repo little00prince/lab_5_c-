@@ -1,5 +1,10 @@
 #include "ball.h"
 
+ball::ball()
+{
+
+}
+
 //Конструктор
 ball::ball(double r)
 {

@@ -1,5 +1,10 @@
 #include "tetrapyramid.h"
 
+tetrapyramid::tetrapyramid()
+{
+
+}
+
 //Конструктор
 tetrapyramid::tetrapyramid(double b)
 {

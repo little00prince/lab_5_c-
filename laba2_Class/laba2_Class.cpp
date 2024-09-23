@@ -11,19 +11,19 @@ double block_double();
 
 int main()
 {
-    int min, max, i;
-    double sides[N], v = 0, s = 0;
+    int min, max, i, f, j = 0, k = 0;
+    double sides[N], v, s;
     cube one;
-    ball two = NULL;
-    tetrapyramid three = NULL;
+    ball two[N][N];
+    tetrapyramid three[N];
     setlocale(LC_ALL, "Rus");
     //Полный цикл программы
     do {
         printf("\n1-Куб\n2-Шар\n3-Правильный тетраид\n--------------------\nВыберите фигуру:");
         min = 1; max = 3;
-        two.setType(block_int(min, max));
+        three[j].setType(block_int(min, max));
         //Ввод и обработка
-        switch (two.getType())
+        switch (three[j].getType())
         {
         case 1:
             printf("Длина сторон прямоугольного параллелепипеда:");
@@ -36,13 +36,13 @@ int main()
             break;
         case 2:
             printf("Радиус шара:");
-            two = ball(block_double());
-            two.worke_ball();
+            two[j][k] = ball(block_double());
+            two[j][k].worke_ball();
             break;
         case 3:
             printf("Длина стороны правильного тетраэдра:");
-            three = tetrapyramid(block_double());
-            three.workе_tetrapyramid();
+            three[j] = tetrapyramid(block_double());
+            three[j].workе_tetrapyramid();
             break;
         default:;
         }
@@ -67,14 +67,14 @@ int main()
             break;
         case 2:
             printf("Шар");
-            printf("\nДиаметр: %f", *two.getD());
-            s = two + s;
-            v = two.get_volume();
+            printf("\nДиаметр: %f", *two[j][k].getD());
+            s = two[j][k].get_area();
+            v = two[j][k].get_volume();
             break;
         case 3:
             printf("Правильный тетраэдр");
-            s = three.get_area();
-            v = three.get_volume();
+            s = three[j].get_area();
+            v = three[j].get_volume();
             break;
         default:;
         }

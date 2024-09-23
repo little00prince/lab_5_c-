@@ -1,8 +1,10 @@
 ﻿  ball.cpp
-  cube.cpp
-  figure.cpp
   laba2_Class.cpp
-C:\Users\anton\source\repos\lab__2Struct\laba2_Class\laba2_Class\cube.cpp(20,42): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\anton\source\repos\lab__2Struct\laba2_Class\laba2_Class\ball.cpp(30,14): error C2039: "+": не является членом "ball".
+  C:\Users\anton\source\repos\lab__2Struct\laba2_Class\laba2_Class\ball.h(3,7):
+   см. объявление "ball"
+  
+C:\Users\anton\source\repos\lab__2Struct\laba2_Class\laba2_Class\ball.cpp(32,12): error C2065: area: необъявленный идентификатор
+C:\Users\anton\source\repos\lab__2Struct\laba2_Class\laba2_Class\laba2_Class.cpp(14,22): warning C4101: f: неиспользованная локальная переменная
   tetrapyramid.cpp
   Создание кода...
-  laba2_Class.vcxproj -> C:\Users\anton\source\repos\lab__2Struct\laba2_Class\x64\Debug\laba2_Class.exe
