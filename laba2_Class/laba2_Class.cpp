@@ -12,7 +12,7 @@ double block_double();
 
 int main()
 {
-    int min, max, i, j = 0, k = 0;
+    int min, max, i, f, j = 0, k = 0;
     double sides[N], v, s;
     cube one;
     ball two[N][N];
@@ -21,6 +21,7 @@ int main()
     setlocale(LC_ALL, "Rus");
     //Полный цикл программы
     do {
+        f = 1;
         printf("\n1-Прямоугольный параллелепипед\n2-Шар\n3-Правильный тетраид\n4-Треугольная призма\n--------------------\nВыберите фигуру:");
         min = 1; max = 4;
         three[j].setType(block_int(min, max));
@@ -53,49 +54,62 @@ int main()
                 sides[i] = block_double();
             }
             four = triangular_prism(sides);
-            four.workе_triangular_prism();
+            try
+            {
+                four.workе_triangular_prism();
+            }
+            catch (const char* error_message)
+            {
+                std::cout << error_message << std::endl;
+                f = 0;
+            }
             break;
         default:;
         }
         //Вывод результатов
-        printf("Фигура: ");
-        switch (one.getType())
+        if (f == 1)
         {
-        case 1:
-            switch (view(one))
+            printf("Фигура: ");
+            switch (one.getType())
             {
             case 1:
-                printf("Куб");
+                switch (view(one))
+                {
+                case 1:
+                    printf("Куб");
+                    break;
+                case 2:
+                    printf("Прямоугольный параллелепипед");
+                    break;
+                default:;
+                }
+                printf("\nДиагональ: %f", one.getDiagonal());
+                s = one.get_area();
+                v = one.get_volume();
                 break;
             case 2:
-                printf("Прямоугольный параллелепипед");
+                printf("Шар");
+                printf("\nДиаметр: %f", *two[j][k].getD());
+                s = two[j][k].get_area();
+                v = two[j][k].get_volume();
+                break;
+            case 3:
+                printf("Правильный тетраэдр");
+                s = three[j].get_area();
+                v = three[j].get_volume();
+                break;
+            case 4:
+                printf("Треугольная призма");
+                s = four.get_area();
+                v = four.get_volume();
                 break;
             default:;
             }
-            printf("\nДиагональ: %f", one.getDiagonal());
-            s = one.get_area();
-            v = one.get_volume();
-            break;
-        case 2:
-            printf("Шар");
-            printf("\nДиаметр: %f", *two[j][k].getD());
-            s = two[j][k].get_area();
-            v = two[j][k].get_volume();
-            break;
-        case 3:
-            printf("Правильный тетраэдр");
-            s = three[j].get_area();
-            v = three[j].get_volume();
-            break;
-        case 4:
-            printf("Треугольная призма");
-            s = four.get_area();
-            v = four.get_volume();
-            break;
-        default:;
+            printf("\nПлощадь: %f", s);
+            printf("\nОбъем: %f\n", v);
+            j++;
+            k++;
         }
-        printf("\nПлощадь: %f", s);
-        printf("\nОбъем: %f\n", v);
         printf("\nНажмите ESC для выхода или любую клавишу для продолжения\n");
     } while (_getch() != 27);
 }

@@ -21,4 +21,12 @@ void triangular_prism::workе_triangular_prism()
     p = (side[0] + side[1] + side[2]) / 2;
     area = sqrtf(p * (p - side[0]) * (p - side[1]) * (p - side[2])) + h * (side[0] + side[1] + side[2]);
     volume = sqrtf(p * (p - side[0]) * (p - side[1]) * (p - side[2])) * h;
+    if ((side[0] - side[1] - side[2]) < 0 || (side[1] - side[0] - side[2]) < 0 || (side[2] - side[0] - side[1]) < 0)
+    {
+        throw "Треугольная призма не существует";
+    }
+    if ((side[0] - side[1] - side[2]) == 0 || (side[1] - side[0] - side[2]) == 0 || (side[2] - side[0] - side[1]) == 0)
+    {
+        throw "Треугольная призма не существует";
+    }
 }

@@ -4,3 +4,8 @@ C:\Users\anton\source\repos\lab__2Struct\laba2_Class\laba2_Class\ball.cpp(30,14)
    см. объявление "ball"
   
 C:\Users\anton\source\repos\lab__2Struct\laba2_Class\laba2_Class\ball.cpp(32,12): error C2065: area: необъявленный идентификатор
+  laba2_Class.cpp
+  triangular_prism.cpp
+C:\Users\anton\source\repos\lab__2Struct\laba2_Class\laba2_Class\triangular_prism.cpp(22,52): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+C:\Users\anton\source\repos\lab__2Struct\laba2_Class\laba2_Class\triangular_prism.cpp(23,54): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  Создание кода...
