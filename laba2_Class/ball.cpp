@@ -20,3 +20,9 @@ double* ball::getD()
 {
     return &d;
 }
+
+//Префиксная перегрузка оператора
+double ball::operator+(double s)
+{
+    return area + s;
+}

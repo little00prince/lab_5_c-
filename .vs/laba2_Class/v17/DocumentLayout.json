@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9858184-D1F1-4D47-BDFB-B83098E1B87B}|laba2_Class\\laba2_Class.vcxproj|C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\laba2_Class\\laba2_Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C9858184-D1F1-4D47-BDFB-B83098E1B87B}|laba2_Class\\laba2_Class.vcxproj|solutionrelative:laba2_Class\\laba2_Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9858184-D1F1-4D47-BDFB-B83098E1B87B}|laba2_Class\\laba2_Class.vcxproj|C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\laba2_Class\\tetrapyramid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C9858184-D1F1-4D47-BDFB-B83098E1B87B}|laba2_Class\\laba2_Class.vcxproj|solutionrelative:laba2_Class\\tetrapyramid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C9858184-D1F1-4D47-BDFB-B83098E1B87B}|laba2_Class\\laba2_Class.vcxproj|C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\laba2_Class\\cube.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C9858184-D1F1-4D47-BDFB-B83098E1B87B}|laba2_Class\\laba2_Class.vcxproj|solutionrelative:laba2_Class\\cube.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9858184-D1F1-4D47-BDFB-B83098E1B87B}|laba2_Class\\laba2_Class.vcxproj|C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\laba2_Class\\ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C9858184-D1F1-4D47-BDFB-B83098E1B87B}|laba2_Class\\laba2_Class.vcxproj|solutionrelative:laba2_Class\\ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9858184-D1F1-4D47-BDFB-B83098E1B87B}|laba2_Class\\laba2_Class.vcxproj|C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\laba2_Class\\laba2_Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C9858184-D1F1-4D47-BDFB-B83098E1B87B}|laba2_Class\\laba2_Class.vcxproj|solutionrelative:laba2_Class\\laba2_Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9858184-D1F1-4D47-BDFB-B83098E1B87B}|laba2_Class\\laba2_Class.vcxproj|C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\laba2_Class\\tetrapyramid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C9858184-D1F1-4D47-BDFB-B83098E1B87B}|laba2_Class\\laba2_Class.vcxproj|solutionrelative:laba2_Class\\tetrapyramid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9858184-D1F1-4D47-BDFB-B83098E1B87B}|laba2_Class\\laba2_Class.vcxproj|C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\laba2_Class\\figure.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "cube.cpp",
               "DocumentMoniker": "C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\laba2_Class\\cube.cpp",
               "RelativeDocumentMoniker": "laba2_Class\\cube.cpp",
@@ -83,32 +83,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "laba2_Class.cpp",
               "DocumentMoniker": "C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\laba2_Class\\laba2_Class.cpp",
               "RelativeDocumentMoniker": "laba2_Class\\laba2_Class.cpp",
               "ToolTip": "C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\laba2_Class\\laba2_Class.cpp",
               "RelativeToolTip": "laba2_Class\\laba2_Class.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAhAAAA",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAYwIMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-23T12:28:22.104Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ball.cpp",
               "DocumentMoniker": "C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\laba2_Class\\ball.cpp",
               "RelativeDocumentMoniker": "laba2_Class\\ball.cpp",
               "ToolTip": "C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\laba2_Class\\ball.cpp",
               "RelativeToolTip": "laba2_Class\\ball.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-23T12:50:18.643Z"
+              "WhenOpened": "2024-09-23T12:50:18.643Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "tetrapyramid.cpp",
               "DocumentMoniker": "C:\\Users\\anton\\source\\repos\\lab__2Struct\\laba2_Class\\laba2_Class\\tetrapyramid.cpp",
               "RelativeDocumentMoniker": "laba2_Class\\tetrapyramid.cpp",
@@ -116,8 +117,7 @@
               "RelativeToolTip": "laba2_Class\\tetrapyramid.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-23T12:50:49.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T12:50:49.804Z"
             },
             {
               "$type": "Document",

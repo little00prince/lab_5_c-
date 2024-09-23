@@ -51,7 +51,16 @@ int main()
         switch (one.getType())
         {
         case 1:
-            printf("Прямоугольный параллелепипед");
+            switch (view(one))
+            {
+            case 1:
+                printf("Куб");
+                break;
+            case 2:
+                printf("Прямоугольный параллелепипед");
+                break;
+            default:;
+            }
             printf("\nДиагональ: %f", one.getDiagonal());
             s = one.get_area();
             v = one.get_volume();
@@ -59,7 +68,7 @@ int main()
         case 2:
             printf("Шар");
             printf("\nДиаметр: %f", *two.getD());
-            s = two.get_area();
+            s = two + s;
             v = two.get_volume();
             break;
         case 3:
@@ -74,7 +83,6 @@ int main()
         printf("\nНажмите ESC для выхода или любую клавишу для продолжения\n");
     } while (_getch() != 27);
 }
-
 //Защита на целые числа
 int block_int(int min, int max)
 {
@@ -114,4 +122,11 @@ double block_double()
         while (getchar() != '\n');
     } while (e <= 0);
     return e;
+}
+//Дружественная функция
+int view(cube& one)
+{
+    if (one.sides[0] == one.sides[1] && one.sides[1] == one.sides[2])
+        return 1;
+    else return 2;
 }
