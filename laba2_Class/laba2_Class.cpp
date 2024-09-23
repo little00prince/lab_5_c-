@@ -4,6 +4,7 @@
 #include "cube.h"
 #include "ball.h"
 #include "tetrapyramid.h"
+#include "triangular_prism.h"
 #include <string>
 
 int block_int(int min, int max);
@@ -11,16 +12,17 @@ double block_double();
 
 int main()
 {
-    int min, max, i, f, j = 0, k = 0;
+    int min, max, i, j = 0, k = 0;
     double sides[N], v, s;
     cube one;
     ball two[N][N];
     tetrapyramid three[N];
+    triangular_prism four;
     setlocale(LC_ALL, "Rus");
     //Полный цикл программы
     do {
-        printf("\n1-Куб\n2-Шар\n3-Правильный тетраид\n--------------------\nВыберите фигуру:");
-        min = 1; max = 3;
+        printf("\n1-Прямоугольный параллелепипед\n2-Шар\n3-Правильный тетраид\n4-Треугольная призма\n--------------------\nВыберите фигуру:");
+        min = 1; max = 4;
         three[j].setType(block_int(min, max));
         //Ввод и обработка
         switch (three[j].getType())
@@ -43,6 +45,15 @@ int main()
             printf("Длина стороны правильного тетраэдра:");
             three[j] = tetrapyramid(block_double());
             three[j].workе_tetrapyramid();
+            break;
+        case 4:
+            printf("Длина сторон Треугольной призмы:");
+            for (i = 0; i < 3; i++)
+            {
+                sides[i] = block_double();
+            }
+            four = triangular_prism(sides);
+            four.workе_triangular_prism();
             break;
         default:;
         }
@@ -75,6 +86,11 @@ int main()
             printf("Правильный тетраэдр");
             s = three[j].get_area();
             v = three[j].get_volume();
+            break;
+        case 4:
+            printf("Треугольная призма");
+            s = four.get_area();
+            v = four.get_volume();
             break;
         default:;
         }
